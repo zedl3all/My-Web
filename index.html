@@ -8,8 +8,8 @@
 
 <body>
     <div id="preloader"></div>
-    <audio autoplay="true">
-        <source src="./Start.mp3" type="audio/mpeg">
+    <audio id="audioPlayer">
+        <source src="Start.mp3" type="audio/mpeg">
     </audio>
     <div class="container">
         <div class="frame">
@@ -43,9 +43,16 @@
     </div>
     <script>
         var loader = document.getElementById("preloader");
+        var audioPlayer = document.getElementById("audioPlayer");
+        var audioPlayed = false;
+
         window.addEventListener("load", function () {
             setTimeout(function () {
                 loader.style.display = "none";
+                if (!audioPlayed) {
+                    audioPlayer.play();
+                    audioPlayed = true;
+                }
             }, 3000);
         });
     </script>
