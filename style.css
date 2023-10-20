@@ -1,0 +1,23 @@
+#Hello1 {
+    font-size: 50px;
+    color: blueviolet;
+    display: inline-block;
+    margin: 0px 50px;
+    border: 5px black solid;
+    padding: 30px 50px;
+}
+.str{
+    font-size: 100px;
+    color: aqua;
+}
+#img{
+    display: inline-block;
+    border: 5px royalblue solid;
+    padding: auto;
+}
+.ontop{
+    display: inline-block;
+    border: 5px red solid;
+    padding: auto;
+    background-color: darkcyan;
+}
