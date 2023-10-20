@@ -1,21 +1,121 @@
-#Hello1 {
-    font-size: 50px;
-    color: rgb(167, 255, 178);
-    display: inline-block;
-    margin: 0px 50px;
-    border: 5px rgb(255, 195, 195) solid;
-    padding: 5px;
+.frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
-.str{
-    font-size: 100px;
-    color: aqua;
+
+.frame .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 1920px;
+    height: 1080px;
 }
-#img{
-    display: inline-block;
-    border: 5px royalblue solid;
+
+.frame .overlap-group {
+    position: relative;
+    height: 100%;
+    background-image: url(https://cdn.steamstatic.com/steamcommunity/public/images/items/413150/1a6e6c63eea63b33241afb87bb2a7d128c200267.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
 }
-.ontop{
-    background-color: darkcyan;
-    margin: 100px;
-    
+
+.frame .rectangle {
+    width: 962px;
+    height: 1080px;
+    top: 0;
+    left: 478px;
+    background: linear-gradient(180deg, rgb(0.91, 0, 45.69) 0%, rgba(0.94, 0, 46.75, 0.44) 100%);
+    position: absolute;
+}
+
+.frame .div {
+    width: 804px;
+    height: 196px;
+    top: 32px;
+    left: 561px;
+    background-color: #d9d9d9;
+    border-radius: 86.5px;
+    position: absolute;
+    border: 7px #313131 solid;
+}
+
+.frame #image {
+    width: 196px;
+    height: 196px;
+    top: 32px;
+    left: 525px;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 165px;
+    background-repeat: no-repeat;
+    border: 5px #313131 solid;
+}
+
+.frame .text-wrapper {
+    position: absolute;
+    width: 269px;
+    top: 105px;
+    left: 897px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-2 {
+    position: absolute;
+    width: 201px;
+    top: 46px;
+    left: 733px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .text-wrapper-3 {
+    position: absolute;
+    top: 167px;
+    left: 730px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .rectangle-2 {
+    width: 871px;
+    height: 745px;
+    top: 288px;
+    left: 526px;
+    background-color: #00176c5e;
+    position: absolute;
+}
+
+.frame .rectangle-3 {
+    width: 837px;
+    height: 210px;
+    top: 303px;
+    left: 544px;
+    background-color: #ffffff78;
+    border-radius: 75px;
+    position: absolute;
+}
+
+.frame #img {
+    width: 725px;
+    height: 186px;
+    top: 315px;
+    left: 604px;
+    position: absolute;
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
