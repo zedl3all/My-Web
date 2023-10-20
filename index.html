@@ -11,6 +11,11 @@
     <audio id="audioPlayer">
         <source src="Start.mp3" type="audio/mpeg">
     </audio>
+    <script>
+        window.addEventListener("mouseover",() => {
+            document.getElementById("audioPlayer").play();
+        });
+    </script>
     <div class="container">
         <div class="frame">
             <div class="overlap-group-wrapper">
@@ -43,16 +48,9 @@
     </div>
     <script>
         var loader = document.getElementById("preloader");
-        var audioPlayer = document.getElementById("audioPlayer");
-        var audioPlayed = false;
-
         window.addEventListener("load", function () {
             setTimeout(function () {
                 loader.style.display = "none";
-                if (!audioPlayed) {
-                    audioPlayer.play();
-                    audioPlayed = true;
-                }
             }, 3000);
         });
     </script>
