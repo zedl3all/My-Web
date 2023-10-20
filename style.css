@@ -119,3 +119,13 @@
     object-fit: cover;
     background-repeat: no-repeat;
 }
+
+#preloader{
+    background: #000000 url(https://i.pinimg.com/originals/88/ae/6f/88ae6f1c0b467e76847f8f17fa830264.gif) no-repeat center;
+    background-size: 50%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
