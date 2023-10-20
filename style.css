@@ -1,6 +1,6 @@
 #Hello1 {
     font-size: 50px;
-    color: blueviolet;
+    color: rgb(167, 255, 178);
     display: inline-block;
     margin: 0px 50px;
     border: 5px black solid;
@@ -11,13 +11,11 @@
     color: aqua;
 }
 #img{
-    display: inline-block;
+    display: block;
     border: 5px royalblue solid;
-    padding: auto;
+    padding: 0px;
+    margin: 100px 150px;
 }
 .ontop{
-    display: inline-block;
-    border: 5px red solid;
-    padding: auto;
     background-color: darkcyan;
 }
