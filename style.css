@@ -16,7 +16,7 @@
     position: relative;
     height: 100%;
     background-image: url(https://cdn.steamstatic.com/steamcommunity/public/images/items/413150/1a6e6c63eea63b33241afb87bb2a7d128c200267.jpg);
-    background-size: cover ;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -100,16 +100,6 @@
     position: absolute;
 }
 
-.frame .rectangle-3 {
-    width: 837px;
-    height: 210px;
-    top: 303px;
-    left: 544px;
-    background-color: #ffffff78;
-    border-radius: 75px;
-    position: absolute;
-}
-
 .frame #img {
     width: 725px;
     height: 186px;
@@ -120,7 +110,7 @@
     background-repeat: no-repeat;
 }
 
-#preloader{
+#preloader {
     background: #000000 url(https://i.pinimg.com/originals/88/ae/6f/88ae6f1c0b467e76847f8f17fa830264.gif) no-repeat center;
     background-size: 50%;
     height: 100vh;
@@ -128,4 +118,64 @@
     position: fixed;
     z-index: 100;
 
+}
+
+.KMITL .image {
+    position: absolute;
+    width: 404px;
+    height: 199px;
+    top: 9px;
+    left: 48px;
+    object-fit: cover;
+}
+
+.KMITL {
+    position: relative;
+    width: 534px;
+    height: 210px;
+    background-color: #ffffff78;
+    border-radius: 75px;
+    overflow: hidden;
+    top: 330px;
+    left: 545px;
+}
+
+
+.IT .image {
+    position: absolute;
+    width: 725px;
+    height: 186px;
+    top: 12px;
+    left: 60px;
+    object-fit: cover;
+}
+
+.IT {
+    position: relative;
+    width: 837px;
+    height: 210px;
+    background-color: #ffffff78;
+    border-radius: 75px;
+    overflow: hidden;
+    top: 304px;
+    left: 545px;
+}
+
+
+.IG .img {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    bottom: 130px;
+    right: 600px;
+    object-fit: cover;
+}
+
+.FACEBOOK .img {
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    bottom: 130px;
+    left: 600px;
+    object-fit: cover;
 }
